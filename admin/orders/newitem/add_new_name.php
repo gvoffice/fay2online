@@ -7,7 +7,7 @@ include('../../../common/dbconnect.php');
 echo" 
 
 <div class='alert alert-info'> 
-<label for='itm_cat'>Category: <strong>$itm_cat</strong></label>
+<label for='itm_cat'>Category:  <strong>$itm_cat</strong></label>
 	<select id='name_$ord_ID'>";
 		
 		
