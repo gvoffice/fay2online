@@ -1,0 +1,4 @@
+[21-Mar-2021 17:17:34 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/alphaplu/fay.mrm-oman.com/admin/logout.php on line 2
+[21-Mar-2021 17:17:46 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/alphaplu/fay.mrm-oman.com/admin/logout.php on line 2
+[21-Mar-2021 17:17:55 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/alphaplu/fay.mrm-oman.com/admin/logout.php on line 2
+[24-Mar-2021 09:42:20 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/alphaplu/fay.mrm-oman.com/admin/logout.php on line 2

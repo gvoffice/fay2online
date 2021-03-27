@@ -1,0 +1,83 @@
+.sideNav {
+	position: fixed;
+	width: 200px;
+	background-color: #4a4746;
+	border-right-width: thin;
+	border-right-color: red;
+	height: 100%;
+	padding: 5px;
+	left: 0px;
+	z-index: 1;
+	box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+	margin-top: -45px;
+}
+
+.sideNav a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sub-menu a{
+  display: block;
+  color: white;
+  padding: 5px;
+	left: 20px;	
+	
+  text-decoration: none;
+}
+
+
+.sub-menu a:hover{
+  display: block;
+  color: #FF0004;
+  padding-left: 40px;
+	text-decoration: none;
+	
+}
+
+@keyframes sidebar-a-hover {
+  from {background-color: #1F1F1F;}
+  to {background-color: #494949;}
+}
+.sideNav a:hover {
+  display: block;
+  color: whitesmoke;
+  padding: 16px;
+  text-decoration: none;
+	border: #AF0306;
+	background-color: #494949;
+	animation-name: sidebar-a-hover;
+  animation-duration: 0.5s;
+	border-radius: 15px;
+}
+
+.sideNav a:active {
+	background: #727272;
+}
+
+.side-toggler {
+	
+    width: 35px;
+    height: 40px;
+    border-radius: 15px;
+    position: absolute;
+    left: 180px;
+    top: 2px;
+    color: white;
+    background: red;
+    border: thin white;
+    padding-left: 1px;
+    text-align: center;
+    padding-top: 8px;
+	
+}
+
+.hideSideMenu {
+	left: -185px;
+  	
+}
+@media screen and (max-width: 700px){
+	
+}

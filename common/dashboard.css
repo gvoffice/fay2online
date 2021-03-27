@@ -1,0 +1,17 @@
+.wrapper {
+	width: 100%;
+}
+
+Header {
+        font-family: 'Tangerine', serif;
+        font-size: 48px;
+		padding-top: 10px;
+	
+	width: 100%;
+	overflow: hidden;
+	height: 45px;
+	background-color: #E7E5F5;
+	padding-left: 30px
+      }
+
+	
